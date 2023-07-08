@@ -1,0 +1,28 @@
+<html>
+<head>
+       <title>App by Siddhesh</title>
+       <style>
+         *{font-size:50px;}
+          body{background-color:azure;}
+       </style>
+</head>
+<body>
+<center>
+       <h1>Holi hain..</h1>
+         <script>
+      
+              function colorme()
+              {
+                   
+                    let colors = ["red","green","orange","yellow","violet","purple","brown","cyan","azure","pink"];
+                    let r = parseInt(Math.random() * colors.length);
+                    document.body.style.background = colors[r];
+                    
+
+              }
+              colorme();
+              setInterval(colorme,1000);
+       </script>
+</center>
+</body>
+</html>
